@@ -54,3 +54,14 @@ li { margin: 4px 0; }
   margin: 20px 0;
   color: var(--ink);
 }
+
+.screen { margin: 24px 0; }
+.screen img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border: 1px solid var(--rule);
+  border-radius: 28px;
+}
+.screen figcaption { color: var(--muted); font-size: 14px; margin-top: 8px; }
