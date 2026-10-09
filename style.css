@@ -55,7 +55,14 @@ li { margin: 4px 0; }
   color: var(--ink);
 }
 
-.screen { margin: 24px 0; }
+.screens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  margin: 24px 0;
+  max-width: 624px;
+}
+.screen { margin: 0; }
 .screen img {
   display: block;
   width: 100%;
